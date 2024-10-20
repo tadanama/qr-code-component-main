@@ -13,9 +13,9 @@ The designs were created to the following widths:
 
 - White: hsl(0, 0%, 100%)
 
-- Slate 300: hsl(212, 45%, 89%)
-- Slate 500: hsl(216, 15%, 48%)
-- Slate 900: hsl(218, 44%, 22%)
+- Slate 300: hsl(212, 45%, 89%) background-color
+- Slate 500: hsl(216, 15%, 48%) paragraph color
+- Slate 900: hsl(218, 44%, 22%) heading color
 
 ## Typography
 
