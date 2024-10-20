@@ -17,10 +17,12 @@ body {
 	padding: 15px;
 	text-align: center;
 	font-family: "Outfit", sans-serif;
+    border-radius: 20px;
 }
 
 .card img {
 	width: 100%;
+    border-radius: 10px;
 }
 
 .card h1 {
