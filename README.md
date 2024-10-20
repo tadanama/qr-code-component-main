@@ -1,3 +1,5 @@
+# My solution for Frontend Mentor qr-code-component Challenge
+
 ## Table of contents
 
 - [Overview](#overview)
