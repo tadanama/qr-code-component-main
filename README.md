@@ -14,8 +14,6 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
   - [Useful resources](#useful-resources)
 - [Author](#author)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
 ### Screenshot
@@ -24,7 +22,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Links
 
-- Live site URL: [Add live site URL here](https://your-solution-url.com)
+- Live site URL: [qr-code-challenge](https://tadanama.github.io/qr-code-component-main/)
 
 ## My process
 
@@ -38,36 +36,35 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 Here are some of the things that I learned while doing this challenge.
 
-- How to center a div (with flexbox). Make sure the html body takes the full height of the browser. Otherwise it will not vertically center it. 
+- How to center a div (with flexbox). Make sure the html body takes the full height of the browser. Otherwise it will not vertically center it.
 
 ```css
 .body {
-  min-height: 100dvh;
+	min-height: 100dvh;
 	display: flex;
-  justify-content: center;
-  align-items: center
+	justify-content: center;
+	align-items: center;
 }
 ```
 
 - How to make it responsive (with media query). When the browser gets to a small screen size change the width of the card.
 
 ```html
-  <main class="card">
-			<img src="./images/image-qr-code.png" alt="" />
-			<h1>Improve your front-end skills by building projects</h1>
-			<p>
-				Scan the QR code to visit Frontend Mentor and take your coding skills to
-				the next level
-			</p>
-		</main>
+<main class="card">
+	<img src="./images/image-qr-code.png" alt="" />
+	<h1>Improve your front-end skills by building projects</h1>
+	<p>
+		Scan the QR code to visit Frontend Mentor and take your coding skills to the next level
+	</p>
+</main>
 ```
 
 ```css
-  @media only screen and (max-width: 330px) {
-    .card {
-      width: 70%;
-    }
-  }
+@media only screen and (max-width: 330px) {
+	.card {
+		width: 70%;
+	}
+}
 ```
 
 ### Continued development
